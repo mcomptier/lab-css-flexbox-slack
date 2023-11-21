@@ -1,4 +1,4 @@
-/*
+/* 
 background purple: #540B51
 background ivory: #F3EAE2
 button blue: #4285F4
@@ -7,4 +7,173 @@ paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
-*/
+ */
+
+body {
+    background-color: #540B51;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: none;
+  }
+nav .slack-logo {
+    width: 30vw;
+    height: auto;
+}
+nav button {
+    margin-left: 10px;
+
+}
+nav div{
+ 
+    width: 100vw;
+    display: flex;
+    justify-content:space-between ; 
+    text-align: center;
+}
+
+h1{
+color:#F3EAE2;
+text-align: center;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+header p {
+    color: #F3EAE2; 
+    text-align: center;
+  }
+  header {
+    align-items: center;
+  }
+
+  header p span {
+    color: #ECB12F; 
+  }
+
+  
+  button.signup-email {
+    color: #611f69;
+    fill: #611f69;
+    padding: 17px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+    width: calc(100% - 20px); 
+    box-shadow: inset 0 0 0 1px #611f69;
+    font-size: 16px;
+    text-transform: uppercase;
+   
+      }
+
+      
+      button.signup-google {
+        background-color: #4285F4;
+        color: #ffffff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        width: calc(100% - 20px);
+        box-sizing: border-box;
+        box-shadow: inset 0 0 0 1px #ffffff;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      
+      button.signup-google img {
+        width: 30px;
+        margin-right: 10px;
+        background-color: #F3EAE2;
+      }
+      
+      button.signup-google span {
+        flex-grow: 1;
+        text-align: center;
+      }
+
+
+header .chat{
+    width: 100vh;
+    margin: 10% 5% 10% 1%;
+}
+
+
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  
+  .logos img {
+    width: auto; 
+    height: 5vh;
+    margin: 10px;
+  }
+
+  .logosection{
+    background-color: #F3EAE2;
+    padding-bottom: 2rem;
+  }
+
+  .logosection p {
+    font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 2rem;
+  }
+
+.teams {
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 2rem;
+}
+.teams h3 {
+    text-align: center;
+    color: #611f69;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    margin: auto;
+}
+.para {
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: b ;
+
+}
+
+
+
+
+
+  @media (min-width: 1024px) {
+    #nav ul {
+        display: block;
+    }
+}
+
+@media (min-width: 1440px) {
+    #nav ul {
+        display: block;
+    }
+}
+
